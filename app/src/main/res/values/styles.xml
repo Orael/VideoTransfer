@@ -1,0 +1,38 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="android:Theme.NoTitleBar">
+        <!-- Customize your theme here. -->
+        <!--<item name="android:background">#badafb</item>-->
+    </style>
+
+    <style name="textviewstyle">
+        <item name="android:textSize">12pt</item>
+        <item name="android:layout_marginLeft">20dp</item>
+        <item name="android:textStyle">italic</item>
+        <item name="android:textColor">#ffc7d1d8</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="buttonStyle">
+        <item name="android:textSize">8pt</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/btn_effect</item>
+        <item name="android:textColor">@drawable/btn_font_style</item>
+        <item name="android:layout_marginLeft">3dp</item>
+    </style>
+
+    <style name="send_btn_style">
+        <item name="android:textSize">8pt</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_gravity">right|center</item>
+        <item name="android:background">@drawable/btn_send</item>
+        <item name="android:textColor">@drawable/send_btn_font_style</item>
+        <item name="android:layout_marginLeft">100dp</item>
+        <item name="android:layout_marginTop">0dp</item>
+    </style>
+
+</resources>
